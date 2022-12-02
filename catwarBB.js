@@ -7,10 +7,10 @@
 // @match        https://catwar.su/sniff*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=catwar.su
 // @grant        none
+// @license MIT
 // ==/UserScript==
 
 (function() {
-    console.log("scriptStarted")
     let send_comment_form = document.querySelector("#send_comment_form");
     if (send_comment_form) {
         let NewButton = document.createElement("input");
